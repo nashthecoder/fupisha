@@ -1,4 +1,0 @@
-{
-    "mongoURI": "mongodb+srv://nashthecoder:dip6Funk!2020@mamatech.hkfh7.mongodb.net/test?retryWrites=true&w=majority",
-    "baseUrl": "http://localhost:5000"
-}
