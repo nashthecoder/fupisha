@@ -1,18 +1,18 @@
 const express = require('express');
-const connectDB = require('./config/db');
+// const connectDB = require('./config/db');
 
 //Initialise app
 const app = express();
 
 // Connect to database 
-connectDB();
+// connectDB();
 
 //Middleware - accepst json data
-app.use(express.json());
+app.use(express.json({extended: false}));
 
-// Define Routes 
+/* // Define Routes 
 app.use('/', require('./routes/index'));
-app.use('/api/url', require('./routes/url'));
+app.use('/api/url', require('./routes/url')); */
 
 const PORT = 5000;
 
